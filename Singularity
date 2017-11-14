@@ -11,8 +11,8 @@ From: sachet/polysolver:v3
      export JAVA_DIR=/usr/bin
      export NOVOALIGN_DIR=$PSHOME/binaries
 
-     # IMPORTANT: the below aren't set, I'm not sure where they are inside image
-     export GATK_DIR=$PSHOME
-     export MUTECT_DIR=$PSHOME
-     export STRELKA_DIR=$PSHOME
+     export GATK_DIR=$PSHOME/binaries
+     export MUTECT_DIR=$PSHOME/binaries
+     export STRELKA_DIR=/usr/local/libexec
+
      chmod 777 -R /usr/local/libexec
